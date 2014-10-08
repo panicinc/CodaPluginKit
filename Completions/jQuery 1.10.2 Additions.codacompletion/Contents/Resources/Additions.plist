@@ -1,0 +1,2299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Completions</key>
+	<array>
+		<dict>
+			<key>ID</key>
+			<string>add</string>
+			<key>String</key>
+			<string>add</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>addBack</string>
+			<key>String</key>
+			<string>addBack</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>addClass</string>
+			<key>String</key>
+			<string>addClass</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>after</string>
+			<key>String</key>
+			<string>after</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ajax</string>
+			<key>String</key>
+			<string>ajax</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ajaxComplete</string>
+			<key>String</key>
+			<string>ajaxComplete</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{13, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ajaxError</string>
+			<key>String</key>
+			<string>ajaxError</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ajaxPrefilter</string>
+			<key>String</key>
+			<string>ajaxPrefilter</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{14, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ajaxSend</string>
+			<key>String</key>
+			<string>ajaxSend</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ajaxSetup</string>
+			<key>String</key>
+			<string>ajaxSetup</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ajaxStart</string>
+			<key>String</key>
+			<string>ajaxStart</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ajaxStop</string>
+			<key>String</key>
+			<string>ajaxStop</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ajaxSuccess</string>
+			<key>String</key>
+			<string>ajaxSuccess</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ajaxTransport</string>
+			<key>String</key>
+			<string>ajaxTransport</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{14, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>always</string>
+			<key>String</key>
+			<string>always</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>andSelf</string>
+			<key>String</key>
+			<string>andSelf</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>animate</string>
+			<key>String</key>
+			<string>animate</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>append</string>
+			<key>String</key>
+			<string>append</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>appendTo</string>
+			<key>String</key>
+			<string>appendTo</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>attr</string>
+			<key>String</key>
+			<string>attr</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>before</string>
+			<key>String</key>
+			<string>before</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>bind</string>
+			<key>String</key>
+			<string>bind</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>blur</string>
+			<key>String</key>
+			<string>blur</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>boxModel</string>
+			<key>String</key>
+			<string>boxModel</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>browser</string>
+			<key>String</key>
+			<string>browser</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>Callbacks</string>
+			<key>String</key>
+			<string>Callbacks</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>change</string>
+			<key>String</key>
+			<string>change</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>children</string>
+			<key>String</key>
+			<string>children</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>clearQueue</string>
+			<key>String</key>
+			<string>clearQueue</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>click</string>
+			<key>String</key>
+			<string>click</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>clone</string>
+			<key>String</key>
+			<string>clone</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>closest</string>
+			<key>String</key>
+			<string>closest</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>contains</string>
+			<key>String</key>
+			<string>contains</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>contents</string>
+			<key>String</key>
+			<string>contents</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>context</string>
+			<key>String</key>
+			<string>context</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>css</string>
+			<key>String</key>
+			<string>css</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>cssHooks</string>
+			<key>String</key>
+			<string>cssHooks</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>currentTarget</string>
+			<key>String</key>
+			<string>currentTarget</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{14, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>data</string>
+			<key>String</key>
+			<string>data</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>data</string>
+			<key>String</key>
+			<string>data</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>dblclick</string>
+			<key>String</key>
+			<string>dblclick</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>Deferred</string>
+			<key>String</key>
+			<string>Deferred</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>delay</string>
+			<key>String</key>
+			<string>delay</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>delegate</string>
+			<key>String</key>
+			<string>delegate</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>delegateTarget</string>
+			<key>String</key>
+			<string>delegateTarget</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{15, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>dequeue</string>
+			<key>String</key>
+			<string>dequeue</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>detach</string>
+			<key>String</key>
+			<string>detach</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>die</string>
+			<key>String</key>
+			<string>die</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>disable</string>
+			<key>String</key>
+			<string>disable</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>disabled</string>
+			<key>String</key>
+			<string>disabled</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>done</string>
+			<key>String</key>
+			<string>done</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>each</string>
+			<key>String</key>
+			<string>each</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>empty</string>
+			<key>String</key>
+			<string>empty</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>end</string>
+			<key>String</key>
+			<string>end</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>eq</string>
+			<key>String</key>
+			<string>eq</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{3, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>error</string>
+			<key>String</key>
+			<string>error</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>extend</string>
+			<key>String</key>
+			<string>extend</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>fadeIn</string>
+			<key>String</key>
+			<string>fadeIn</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>fadeOut</string>
+			<key>String</key>
+			<string>fadeOut</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>fadeTo</string>
+			<key>String</key>
+			<string>fadeTo</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>fadeToggle</string>
+			<key>String</key>
+			<string>fadeToggle</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>fail</string>
+			<key>String</key>
+			<string>fail</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>filter</string>
+			<key>String</key>
+			<string>filter</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>find</string>
+			<key>String</key>
+			<string>find</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>finish</string>
+			<key>String</key>
+			<string>finish</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>fire</string>
+			<key>String</key>
+			<string>fire</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>fired</string>
+			<key>String</key>
+			<string>fired</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>fireWith</string>
+			<key>String</key>
+			<string>fireWith</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>first</string>
+			<key>String</key>
+			<string>first</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>focus</string>
+			<key>String</key>
+			<string>focus</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>focusin</string>
+			<key>String</key>
+			<string>focusin</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>focusout</string>
+			<key>String</key>
+			<string>focusout</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>get</string>
+			<key>String</key>
+			<string>get</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>getJSON</string>
+			<key>String</key>
+			<string>getJSON</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>getScript</string>
+			<key>String</key>
+			<string>getScript</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>globalEval</string>
+			<key>String</key>
+			<string>globalEval</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>grep</string>
+			<key>String</key>
+			<string>grep</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>has</string>
+			<key>String</key>
+			<string>has</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>hasClass</string>
+			<key>String</key>
+			<string>hasClass</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>hasData</string>
+			<key>String</key>
+			<string>hasData</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>height</string>
+			<key>String</key>
+			<string>height</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>hide</string>
+			<key>String</key>
+			<string>hide</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>holdReady</string>
+			<key>String</key>
+			<string>holdReady</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>hover</string>
+			<key>String</key>
+			<string>hover</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>html</string>
+			<key>String</key>
+			<string>html</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>inArray</string>
+			<key>String</key>
+			<string>inArray</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>index</string>
+			<key>String</key>
+			<string>index</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>innerHeight</string>
+			<key>String</key>
+			<string>innerHeight</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>innerWidth</string>
+			<key>String</key>
+			<string>innerWidth</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>insertAfter</string>
+			<key>String</key>
+			<string>insertAfter</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>insertBefore</string>
+			<key>String</key>
+			<string>insertBefore</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{13, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>interval</string>
+			<key>String</key>
+			<string>interval</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>is</string>
+			<key>String</key>
+			<string>is</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{3, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isArray</string>
+			<key>String</key>
+			<string>isArray</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isDefaultPrevented</string>
+			<key>String</key>
+			<string>isDefaultPrevented</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{19, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isEmptyObject</string>
+			<key>String</key>
+			<string>isEmptyObject</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{14, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isFunction</string>
+			<key>String</key>
+			<string>isFunction</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isImmediatePropagationStopped</string>
+			<key>String</key>
+			<string>isImmediatePropagationStopped</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{30, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isNumeric</string>
+			<key>String</key>
+			<string>isNumeric</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isPlainObject</string>
+			<key>String</key>
+			<string>isPlainObject</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{14, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isPropagationStopped</string>
+			<key>String</key>
+			<string>isPropagationStopped</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{21, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isRejected</string>
+			<key>String</key>
+			<string>isRejected</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isResolved</string>
+			<key>String</key>
+			<string>isResolved</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isWindow</string>
+			<key>String</key>
+			<string>isWindow</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>isXMLDoc</string>
+			<key>String</key>
+			<string>isXMLDoc</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>jquery</string>
+			<key>String</key>
+			<string>jquery</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>jQuery</string>
+			<key>String</key>
+			<string>jQuery</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>keydown</string>
+			<key>String</key>
+			<string>keydown</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>keypress</string>
+			<key>String</key>
+			<string>keypress</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>keyup</string>
+			<key>String</key>
+			<string>keyup</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>last</string>
+			<key>String</key>
+			<string>last</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>length</string>
+			<key>String</key>
+			<string>length</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>live</string>
+			<key>String</key>
+			<string>live</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>load</string>
+			<key>String</key>
+			<string>load</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>lock</string>
+			<key>String</key>
+			<string>lock</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>locked</string>
+			<key>String</key>
+			<string>locked</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>makeArray</string>
+			<key>String</key>
+			<string>makeArray</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>map</string>
+			<key>String</key>
+			<string>map</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>merge</string>
+			<key>String</key>
+			<string>merge</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>metaKey</string>
+			<key>String</key>
+			<string>metaKey</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>mousedown</string>
+			<key>String</key>
+			<string>mousedown</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>mouseenter</string>
+			<key>String</key>
+			<string>mouseenter</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>mouseleave</string>
+			<key>String</key>
+			<string>mouseleave</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>mousemove</string>
+			<key>String</key>
+			<string>mousemove</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>mouseout</string>
+			<key>String</key>
+			<string>mouseout</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>mouseover</string>
+			<key>String</key>
+			<string>mouseover</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>mouseup</string>
+			<key>String</key>
+			<string>mouseup</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>namespace</string>
+			<key>String</key>
+			<string>namespace</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>next</string>
+			<key>String</key>
+			<string>next</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>nextAll</string>
+			<key>String</key>
+			<string>nextAll</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>nextUntil</string>
+			<key>String</key>
+			<string>nextUntil</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>noConflict</string>
+			<key>String</key>
+			<string>noConflict</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>noop</string>
+			<key>String</key>
+			<string>noop</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>not</string>
+			<key>String</key>
+			<string>not</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>notify</string>
+			<key>String</key>
+			<string>notify</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>notifyWith</string>
+			<key>String</key>
+			<string>notifyWith</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>now</string>
+			<key>String</key>
+			<string>now</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>off</string>
+			<key>String</key>
+			<string>off</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>off</string>
+			<key>String</key>
+			<string>off</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>offset</string>
+			<key>String</key>
+			<string>offset</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>offsetParent</string>
+			<key>String</key>
+			<string>offsetParent</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{13, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>on</string>
+			<key>String</key>
+			<string>on</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{3, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>one</string>
+			<key>String</key>
+			<string>one</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>outerHeight</string>
+			<key>String</key>
+			<string>outerHeight</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>outerWidth</string>
+			<key>String</key>
+			<string>outerWidth</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>pageX</string>
+			<key>String</key>
+			<string>pageX</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>pageY</string>
+			<key>String</key>
+			<string>pageY</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>param</string>
+			<key>String</key>
+			<string>param</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>parent</string>
+			<key>String</key>
+			<string>parent</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>parents</string>
+			<key>String</key>
+			<string>parents</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>parentsUntil</string>
+			<key>String</key>
+			<string>parentsUntil</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{13, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>parseHTML</string>
+			<key>String</key>
+			<string>parseHTML</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>parseJSON</string>
+			<key>String</key>
+			<string>parseJSON</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>parseXML</string>
+			<key>String</key>
+			<string>parseXML</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>pipe</string>
+			<key>String</key>
+			<string>pipe</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>position</string>
+			<key>String</key>
+			<string>position</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>post</string>
+			<key>String</key>
+			<string>post</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>prepend</string>
+			<key>String</key>
+			<string>prepend</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>prependTo</string>
+			<key>String</key>
+			<string>prependTo</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>prev</string>
+			<key>String</key>
+			<string>prev</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>prevAll</string>
+			<key>String</key>
+			<string>prevAll</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>preventDefault</string>
+			<key>String</key>
+			<string>preventDefault</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{15, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>prevUntil</string>
+			<key>String</key>
+			<string>prevUntil</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>progress</string>
+			<key>String</key>
+			<string>progress</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>promise</string>
+			<key>String</key>
+			<string>promise</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>prop</string>
+			<key>String</key>
+			<string>prop</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>proxy</string>
+			<key>String</key>
+			<string>proxy</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>pushStack</string>
+			<key>String</key>
+			<string>pushStack</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>queue</string>
+			<key>String</key>
+			<string>queue</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ready</string>
+			<key>String</key>
+			<string>ready</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>reject</string>
+			<key>String</key>
+			<string>reject</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>rejectWith</string>
+			<key>String</key>
+			<string>rejectWith</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>relatedTarget</string>
+			<key>String</key>
+			<string>relatedTarget</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{14, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>remove</string>
+			<key>String</key>
+			<string>remove</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>removeAttr</string>
+			<key>String</key>
+			<string>removeAttr</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>removeClass</string>
+			<key>String</key>
+			<string>removeClass</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>removeData</string>
+			<key>String</key>
+			<string>removeData</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>removeProp</string>
+			<key>String</key>
+			<string>removeProp</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>replaceAll</string>
+			<key>String</key>
+			<string>replaceAll</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>replaceWith</string>
+			<key>String</key>
+			<string>replaceWith</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>resize</string>
+			<key>String</key>
+			<string>resize</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>resolve</string>
+			<key>String</key>
+			<string>resolve</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>resolveWith</string>
+			<key>String</key>
+			<string>resolveWith</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>result</string>
+			<key>String</key>
+			<string>result</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>scroll</string>
+			<key>String</key>
+			<string>scroll</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>scrollLeft</string>
+			<key>String</key>
+			<string>scrollLeft</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>scrollTop</string>
+			<key>String</key>
+			<string>scrollTop</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>select</string>
+			<key>String</key>
+			<string>select</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>selector</string>
+			<key>String</key>
+			<string>selector</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>serialize</string>
+			<key>String</key>
+			<string>serialize</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>serializeArray</string>
+			<key>String</key>
+			<string>serializeArray</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{15, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>show</string>
+			<key>String</key>
+			<string>show</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>siblings</string>
+			<key>String</key>
+			<string>siblings</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>size</string>
+			<key>String</key>
+			<string>size</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>slice</string>
+			<key>String</key>
+			<string>slice</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>slideDown</string>
+			<key>String</key>
+			<string>slideDown</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>slideToggle</string>
+			<key>String</key>
+			<string>slideToggle</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>slideUp</string>
+			<key>String</key>
+			<string>slideUp</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>state</string>
+			<key>String</key>
+			<string>state</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>stop</string>
+			<key>String</key>
+			<string>stop</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>stopImmediatePropagation</string>
+			<key>String</key>
+			<string>stopImmediatePropagation</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{25, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>stopPropagation</string>
+			<key>String</key>
+			<string>stopPropagation</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{16, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>sub</string>
+			<key>String</key>
+			<string>sub</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>submit</string>
+			<key>String</key>
+			<string>submit</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>support</string>
+			<key>String</key>
+			<string>support</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>target</string>
+			<key>String</key>
+			<string>target</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>text</string>
+			<key>String</key>
+			<string>text</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>then</string>
+			<key>String</key>
+			<string>then</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>timeStamp</string>
+			<key>String</key>
+			<string>timeStamp</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>toArray</string>
+			<key>String</key>
+			<string>toArray</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>toggle</string>
+			<key>String</key>
+			<string>toggle</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>toggleClass</string>
+			<key>String</key>
+			<string>toggleClass</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>trigger</string>
+			<key>String</key>
+			<string>trigger</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>triggerHandler</string>
+			<key>String</key>
+			<string>triggerHandler</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{15, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>trim</string>
+			<key>String</key>
+			<string>trim</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>type</string>
+			<key>String</key>
+			<string>type</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>type</string>
+			<key>String</key>
+			<string>type</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>unbind</string>
+			<key>String</key>
+			<string>unbind</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>undelegate</string>
+			<key>String</key>
+			<string>undelegate</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>unique</string>
+			<key>String</key>
+			<string>unique</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>unload</string>
+			<key>String</key>
+			<string>unload</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>unwrap</string>
+			<key>String</key>
+			<string>unwrap</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>val</string>
+			<key>String</key>
+			<string>val</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>when</string>
+			<key>String</key>
+			<string>when</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>which</string>
+			<key>String</key>
+			<string>which</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>width</string>
+			<key>String</key>
+			<string>width</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wrap</string>
+			<key>String</key>
+			<string>wrap</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wrapAll</string>
+			<key>String</key>
+			<string>wrapAll</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>wrapInner</string>
+			<key>String</key>
+			<string>wrapInner</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+		</dict>
+	</array>
+</dict>
+</plist>

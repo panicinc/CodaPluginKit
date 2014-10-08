@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D5B49AC048680CD000E48DA /* Zap Gremlins */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* Zap Gremlins */,
+		);
+		codeSenseManager = BEAA0D0F0EB0EF7B002630D0 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					953,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					889,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 246569610;
+			PBXWorkspaceStateSaveDate = 246569610;
+		};
+		perUserProjectItems = {
+			BEA0410C0EB2795600EF352B /* PBXTextBookmark */ = BEA0410C0EB2795600EF352B /* PBXTextBookmark */;
+			BEA0410D0EB2795600EF352B /* PBXTextBookmark */ = BEA0410D0EB2795600EF352B /* PBXTextBookmark */;
+			BEA0410E0EB2795600EF352B /* PBXTextBookmark */ = BEA0410E0EB2795600EF352B /* PBXTextBookmark */;
+			BEA0410F0EB2795600EF352B /* PBXTextBookmark */ = BEA0410F0EB2795600EF352B /* PBXTextBookmark */;
+			BEA041100EB2795600EF352B /* PBXTextBookmark */ = BEA041100EB2795600EF352B /* PBXTextBookmark */;
+			BEA041110EB2795600EF352B /* PBXTextBookmark */ = BEA041110EB2795600EF352B /* PBXTextBookmark */;
+			BEA041120EB2795600EF352B /* PBXTextBookmark */ = BEA041120EB2795600EF352B /* PBXTextBookmark */;
+			BEAA0D400EB0F095002630D0 /* PBXTextBookmark */ = BEAA0D400EB0F095002630D0 /* PBXTextBookmark */;
+			BEAA0D420EB0F095002630D0 /* PBXTextBookmark */ = BEAA0D420EB0F095002630D0 /* PBXTextBookmark */;
+			BEAA0D620EB0F73B002630D0 /* PBXTextBookmark */ = BEAA0D620EB0F73B002630D0 /* PBXTextBookmark */;
+			BEAA0D910EB0F976002630D0 /* PlistBookmark */ = BEAA0D910EB0F976002630D0 /* PlistBookmark */;
+			BEAA0DC60EB0FD40002630D0 /* PBXTextBookmark */ = BEAA0DC60EB0FD40002630D0 /* PBXTextBookmark */;
+			BEAA0DCC0EB0FD40002630D0 /* PBXTextBookmark */ = BEAA0DCC0EB0FD40002630D0 /* PBXTextBookmark */;
+			BEAA0DE50EB0FE21002630D0 /* PBXTextBookmark */ = BEAA0DE50EB0FE21002630D0 /* PBXTextBookmark */;
+			BEAA0DE70EB0FE21002630D0 /* PBXTextBookmark */ = BEAA0DE70EB0FE21002630D0 /* PBXTextBookmark */;
+			BEAA0E650EB10CCF002630D0 /* PBXTextBookmark */ = BEAA0E650EB10CCF002630D0 /* PBXTextBookmark */;
+			BEAA0E890EB1179F002630D0 /* PBXTextBookmark */ = BEAA0E890EB1179F002630D0 /* PBXTextBookmark */;
+			BEAA0E8C0EB1179F002630D0 /* PBXTextBookmark */ = BEAA0E8C0EB1179F002630D0 /* PBXTextBookmark */;
+			BEAA0E8F0EB1179F002630D0 /* PBXTextBookmark */ = BEAA0E8F0EB1179F002630D0 /* PBXTextBookmark */;
+			BEAA0E9B0EB117EA002630D0 /* PBXTextBookmark */ = BEAA0E9B0EB117EA002630D0 /* PBXTextBookmark */;
+			BEAA0F010EB1222D002630D0 /* PBXTextBookmark */ = BEAA0F010EB1222D002630D0 /* PBXTextBookmark */;
+			BEAA0F060EB1222D002630D0 /* PBXTextBookmark */ = BEAA0F060EB1222D002630D0 /* PBXTextBookmark */;
+			BEAA0F070EB1222D002630D0 /* PBXTextBookmark */ = BEAA0F070EB1222D002630D0 /* PBXTextBookmark */;
+			BEAA0FDB0EB13598002630D0 /* PBXTextBookmark */ = BEAA0FDB0EB13598002630D0 /* PBXTextBookmark */;
+			BEAA0FE80EB13A09002630D0 /* PlistBookmark */ = BEAA0FE80EB13A09002630D0 /* PlistBookmark */;
+			BEAA0FE90EB13A09002630D0 /* PBXTextBookmark */ = BEAA0FE90EB13A09002630D0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = BEAA0D0E0EB0EF7B002630D0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1131, 792}}";
+			sepNavSelRange = "{89, 0}";
+			sepNavVisRange = "{0, 104}";
+			sepNavWindowFrame = "{{38, 149}, {1257, 1003}}";
+		};
+	};
+	8D5B49AC048680CD000E48DA /* Zap Gremlins */ = {
+		activeExec = 0;
+	};
+	BEA0410C0EB2795600EF352B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D460EB0F0BC002630D0 /* English */;
+		name = "Localizable.strings: 1";
+		rLen = 0;
+		rLoc = 36;
+		rType = 0;
+		vrLen = 36;
+		vrLoc = 0;
+	};
+	BEA0410D0EB2795600EF352B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D3B0EB0F06F002630D0 /* CodaPlugInsController.h */;
+		name = "CodaPlugInsController.h: 30";
+		rLen = 45;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 1509;
+		vrLoc = 24;
+	};
+	BEA0410E0EB2795600EF352B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D320EB0F00F002630D0 /* ZapPlugIn.m */;
+		name = "ZapPlugIn.m: 28";
+		rLen = 0;
+		rLoc = 763;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 4044;
+	};
+	BEA0410F0EB2795600EF352B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D460EB0F0BC002630D0 /* English */;
+		name = "Localizable.strings: 1";
+		rLen = 0;
+		rLoc = 36;
+		rType = 0;
+		vrLen = 36;
+		vrLoc = 0;
+	};
+	BEA041100EB2795600EF352B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D320EB0F00F002630D0 /* ZapPlugIn.m */;
+		name = "ZapPlugIn.m: 183";
+		rLen = 15;
+		rLoc = 4662;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 4097;
+	};
+	BEA041110EB2795600EF352B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D3B0EB0F06F002630D0 /* CodaPlugInsController.h */;
+		name = "CodaPlugInsController.h: 30";
+		rLen = 45;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 1509;
+		vrLoc = 24;
+	};
+	BEA041120EB2795600EF352B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D320EB0F00F002630D0 /* ZapPlugIn.m */;
+		name = "ZapPlugIn.m: 28";
+		rLen = 0;
+		rLoc = 763;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 4044;
+	};
+	BEAA0D0E0EB0EF7B002630D0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = Coda;
+		};
+	};
+	BEAA0D0F0EB0EF7B002630D0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BEAA0D320EB0F00F002630D0 /* ZapPlugIn.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1131, 3752}}";
+			sepNavSelRange = "{763, 0}";
+			sepNavVisRange = "{4044, 859}";
+		};
+	};
+	BEAA0D330EB0F00F002630D0 /* ZapPlugIn.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1131, 792}}";
+			sepNavSelRange = "{546, 0}";
+			sepNavVisRange = "{0, 856}";
+		};
+	};
+	BEAA0D3B0EB0F06F002630D0 /* CodaPlugInsController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1131, 2324}}";
+			sepNavSelRange = "{821, 45}";
+			sepNavVisRange = "{24, 1509}";
+		};
+	};
+	BEAA0D400EB0F095002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 3";
+		rLen = 0;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 104;
+		vrLoc = 0;
+	};
+	BEAA0D420EB0F095002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D330EB0F00F002630D0 /* ZapPlugIn.h */;
+		name = "ZapPlugIn.h: 11";
+		rLen = 0;
+		rLoc = 449;
+		rType = 0;
+		vrLen = 249;
+		vrLoc = 0;
+	};
+	BEAA0D460EB0F0BC002630D0 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1131, 792}}";
+			sepNavSelRange = "{36, 0}";
+			sepNavVisRange = "{0, 36}";
+		};
+	};
+	BEAA0D620EB0F73B002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D460EB0F0BC002630D0 /* English */;
+		name = "Localizable.strings: 1";
+		rLen = 0;
+		rLoc = 36;
+		rType = 0;
+		vrLen = 32;
+		vrLoc = 0;
+	};
+	BEAA0D910EB0F976002630D0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/will/Projects/coda/plugins/Zap Gremlins/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	BEAA0DC60EB0FD40002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0DC70EB0FD40002630D0 /* NSZone.h */;
+		name = "NSZone.h: 12";
+		rLen = 19;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 1687;
+		vrLoc = 0;
+	};
+	BEAA0DC70EB0FD40002630D0 /* NSZone.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSZone.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSZone.h;
+		sourceTree = "<absolute>";
+	};
+	BEAA0DCC0EB0FD40002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0DCD0EB0FD40002630D0 /* NSZone.h */;
+		name = "NSZone.h: 12";
+		rLen = 19;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 1687;
+		vrLoc = 0;
+	};
+	BEAA0DCD0EB0FD40002630D0 /* NSZone.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSZone.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSZone.h;
+		sourceTree = "<absolute>";
+	};
+	BEAA0DD00EB0FD40002630D0 /* NSNibLoading.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSNibLoading.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSNibLoading.h;
+		sourceTree = "<absolute>";
+	};
+	BEAA0DE50EB0FE21002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0DD00EB0FD40002630D0 /* NSNibLoading.h */;
+		name = "NSNibLoading.h: 15";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 1199;
+		vrLoc = 0;
+	};
+	BEAA0DE70EB0FE21002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0DD00EB0FD40002630D0 /* NSNibLoading.h */;
+		name = "NSNibLoading.h: 15";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 1199;
+		vrLoc = 0;
+	};
+	BEAA0E650EB10CCF002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0E660EB10CCF002630D0 /* NSAttributedString.h */;
+		name = "NSAttributedString.h: 34";
+		rLen = 76;
+		rLoc = 1187;
+		rType = 0;
+		vrLen = 1756;
+		vrLoc = 0;
+	};
+	BEAA0E660EB10CCF002630D0 /* NSAttributedString.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSAttributedString.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSAttributedString.h;
+		sourceTree = "<absolute>";
+	};
+	BEAA0E890EB1179F002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0E8A0EB1179F002630D0 /* NSCharacterSet.h */;
+		name = "NSCharacterSet.h: 37";
+		rLen = 21;
+		rLoc = 1153;
+		rType = 0;
+		vrLen = 1758;
+		vrLoc = 221;
+	};
+	BEAA0E8A0EB1179F002630D0 /* NSCharacterSet.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSCharacterSet.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSCharacterSet.h;
+		sourceTree = "<absolute>";
+	};
+	BEAA0E8C0EB1179F002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0E8D0EB1179F002630D0 /* NSString.h */;
+		name = "NSString.h: 63";
+		rLen = 45;
+		rLoc = 2445;
+		rType = 0;
+		vrLen = 2068;
+		vrLoc = 1363;
+	};
+	BEAA0E8D0EB1179F002630D0 /* NSString.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSString.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSString.h;
+		sourceTree = "<absolute>";
+	};
+	BEAA0E8F0EB1179F002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0E900EB1179F002630D0 /* NSCharacterSet.h */;
+		name = "NSCharacterSet.h: 24";
+		rLen = 0;
+		rLoc = 691;
+		rType = 0;
+		vrLen = 1640;
+		vrLoc = 0;
+	};
+	BEAA0E900EB1179F002630D0 /* NSCharacterSet.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSCharacterSet.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSCharacterSet.h;
+		sourceTree = "<absolute>";
+	};
+	BEAA0E9B0EB117EA002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D320EB0F00F002630D0 /* ZapPlugIn.m */;
+		name = "ZapPlugIn.m: 106";
+		rLen = 0;
+		rLoc = 3816;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 1979;
+	};
+	BEAA0F010EB1222D002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0F020EB1222D002630D0 /* CodaPlugInsController.m */;
+		name = "CodaPlugInsController.m: 121";
+		rLen = 79;
+		rLoc = 2883;
+		rType = 0;
+		vrLen = 1200;
+		vrLoc = 2302;
+	};
+	BEAA0F020EB1222D002630D0 /* CodaPlugInsController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CodaPlugInsController.m;
+		path = /Users/will/Projects/coda/src/controllers/CodaPlugInsController.m;
+		sourceTree = "<absolute>";
+	};
+	BEAA0F060EB1222D002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D3B0EB0F06F002630D0 /* CodaPlugInsController.h */;
+		name = "CodaPlugInsController.h: 76";
+		rLen = 81;
+		rLoc = 1887;
+		rType = 0;
+		vrLen = 1128;
+		vrLoc = 1458;
+	};
+	BEAA0F070EB1222D002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0F080EB1222D002630D0 /* CodaPlugInsController.m */;
+		name = "CodaPlugInsController.m: 121";
+		rLen = 79;
+		rLoc = 2883;
+		rType = 0;
+		vrLen = 1200;
+		vrLoc = 2302;
+	};
+	BEAA0F080EB1222D002630D0 /* CodaPlugInsController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CodaPlugInsController.m;
+		path = /Users/will/Projects/coda/src/controllers/CodaPlugInsController.m;
+		sourceTree = "<absolute>";
+	};
+	BEAA0FDB0EB13598002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEAA0D330EB0F00F002630D0 /* ZapPlugIn.h */;
+		name = "ZapPlugIn.h: 24";
+		rLen = 0;
+		rLoc = 546;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 0;
+	};
+	BEAA0FE80EB13A09002630D0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/will/Projects/coda/plugins/Zap Gremlins/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	BEAA0FE90EB13A09002630D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 3";
+		rLen = 0;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 104;
+		vrLoc = 0;
+	};
+}

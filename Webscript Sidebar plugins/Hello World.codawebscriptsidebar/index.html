@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>Sidebar Controls</title>		
+<!--
+		<link rel="stylesheet" href="sidebar.css" />
+		<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="sidebarRetina.css"  />	
+		-->
+		
+		<style type="text/css" media="screen">
+			
+			
+			#logobackground
+			{
+				bottom: 20pt;
+				margin: auto auto;
+				width: 200px;
+			}
+			
+			#parent
+			{
+				position:fixed;
+				bottom:0px;
+				width:100px; //width should be 100%
+				background-color:red;
+			} 
+.child {
+
+margin:0px auto; //here it will make center 
+}
+			
+		</style>
+
+	<script type="text/javascript">
+		
+		function replaceTextExample()
+		{
+			var range={length:10, location:1};
+			
+			//window.CodaTextView.replaceCharactersInRangeWithString(window.CodaTextView.currentWordRange(), 'Hello World');
+			window.CodaTextView.setSelectedRange(range);
+		}
+		
+	</script>
+	
+	</head>
+	<body>
+		
+		<section style="display: none">
+		
+			<button type="button">Button</button>
+			<button type="button" class="active">Button</button>
+			
+			<br />
+			
+			<input type="checkbox" />
+			<input type="checkbox" class="active" />
+			<input type="checkbox" checked="checked" />
+			
+			<br />
+			
+			<input type="radio" />
+		<input type="radio" checked="checked" />
+		
+		</section>
+		
+		<p>
+			This page demonstrates common controls used in the Coda sidebar.
+		</p>
+		
+		<p>
+			<input type="radio" name="demo_options" id="radio1" value="1" checked="checked" />
+			<label for="radio1">Radio buttons</label>
+			<br />
+			<input type="radio" name="demo_options" id="radio2" value="2" />
+			<label for="radio2">More radio buttons</label>
+			<br />
+			<input type="radio" name="demo_options" id="radio3" value="3" />
+			<label for="radio3">And more!</label>
+		</p>
+		
+		<p>
+			<input type="checkbox" id="demo_checkbox" />
+			<label for="demo_checkbox">I understand that there are dummy controls</label>
+		</p>
+		
+		<p style="text-align: right">
+			<button class="midWidth" onclick="replaceTextExample()">Cancel</button>
+			<button class="midWidth" onclick="window.alert(CodaTextView.selectedRange().length)">OK</button>
+		</p>
+		
+		<div id="parent">
+			<img class="child" src="web-trifecta.png" width="200" height="118" />
+		</div>
+		
+	</body>
+</html>
