@@ -1,4 +1,4 @@
-# Coda Plugin Kit
+# Coda Plug-in Kit
 
 If you've ever wished Coda could do even more than it does already, you're at the right place.
 
