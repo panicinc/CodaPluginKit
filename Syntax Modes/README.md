@@ -1,0 +1,1 @@
+Included here is a copy of our XML mode as a place to start developing your own modes.
