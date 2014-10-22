@@ -59,3 +59,9 @@ CodaTextView.setSelectedRange(range);
 - displayHTMLStringWithBaseURL(string, string) --html string and string representing URL
 - (CodaTextView) openFileAtPath(string)
 - (int) runCommand(string, array) - path to command line tool to execute, array of string arguments to pass 
+
+
+#### CodaPlugInPreferences:
+
+- (string)preferenceForKey(string)
+- setPreferenceForKey(string, string) -- value and key pair to store in preferences
