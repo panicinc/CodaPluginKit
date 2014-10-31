@@ -49,7 +49,7 @@ var range= {length:10, location:1};
 CodaTextView.setSelectedRange(range);
 ```
 
-#### CodaPluginsController:
+#### CodaPlugInsController:
 
 - (string) codaVersion
 - (int) apiVersion
