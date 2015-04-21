@@ -129,7 +129,7 @@ To Setup Debugging &mdash; [Thank-you to http://ngs.io](http://ngs.io/2012/05/25
 "cp" works around the problem.*
     
 ## License Terms
-&copy;2015 by William J. Heaton, LLC &mdash; All Rights Reserved.  
+&copy;2015 by William J. Heaton &mdash; All Rights Reserved.  
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:

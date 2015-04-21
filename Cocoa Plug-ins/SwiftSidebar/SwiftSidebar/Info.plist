@@ -21,7 +21,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2015 WinkWinkNodNod, LLC. All rights reserved. See README.md for license terms</string>
+	<string>Copyright © 2015 William J Heaton. All rights reserved. See README.md for license terms</string>
 	<key>NSPrincipalClass</key>
 	<string>SwiftSidebar</string>
 	<key>CodaPlugInSupportedAPIVersion</key>
@@ -34,5 +34,7 @@
 	<string>#9100FF</string>
 	<key>CodaIconMaskFile</key>
 	<string>SwiftLogo</string>
+	<key>LSApplicationCategoryType</key>
+	<string>mysqldump -uroot --all-databases --master-data &gt; yin_mysql_20150421.sql</string>
 </dict>
 </plist>

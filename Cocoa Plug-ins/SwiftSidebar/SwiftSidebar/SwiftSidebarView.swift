@@ -1,7 +1,7 @@
 /**
 * SwiftViewController.swift - Interface to the sidebar view
 *
-* (c) 2015 by William J. Heaton, LLC - All Rights Reserved.
+* (c) 2015 by William J. Heaton - All Rights Reserved.
 * See license terms in README.md
 */
 
