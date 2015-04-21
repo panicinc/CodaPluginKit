@@ -34,7 +34,5 @@
 	<string>#9100FF</string>
 	<key>CodaIconMaskFile</key>
 	<string>SwiftLogo</string>
-	<key>LSApplicationCategoryType</key>
-	<string>mysqldump -uroot --all-databases --master-data &gt; yin_mysql_20150421.sql</string>
 </dict>
 </plist>
