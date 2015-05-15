@@ -43,6 +43,8 @@ This is how I created the project in Xcode6:
   for best results with the name you have in the "CodaIconMaskFile" entry.
 * Create your principal class where the class name is what your set in your info.plist: 
   "File" / "File.." / "OS X" / "Source" / "Swift File" / Save as YourStartingClass
+* When it asks you to create a bridging Header, Agree.
+* Here's a starter for your Starting Class:
 
     ```        
     import Foundation    
@@ -51,6 +53,11 @@ This is how I created the project in Xcode6:
     class YourStartingClass {  
     }  
     ```  
+* Here a Starter for your bridging Header:
+    
+    ```        
+    #import "CodaPluginsController.h"
+     ```        
 
 ## Swift Dynalib Workaround
 
