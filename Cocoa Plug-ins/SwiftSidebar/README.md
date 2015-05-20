@@ -30,19 +30,21 @@ This is how I created the project in Xcode6:
 * Add the Coda2 Information and "Principal Class" information
 
 > 
-| Name                            | Type     |  Description            |  
-| ------------------------------- | -------- | ----------------------- |  
-| CodaAuthorString                | [String] | The Authors name        |  
-| CodaDescriptionString           | [String] | Sidebar Description     |  
-| CodaIconHighlightHexColor       | [String] | #9100FF                 |  
-| CodaIconMaskFile                | [String] | Your Sidebar Icon File  |   
-| CodaPlugInSupportedAPIVersion   | [Number] | 7                       |  
-| Principal Class                 | [String] | YourStartingClass       |
+| Name                            | Type     |  Description                          |  
+| ------------------------------- | -------- | ------------------------------------- |  
+| CodaAuthorString                | [String] | The Authors name                      |  
+| CodaDescriptionString           | [String] | Sidebar Description                   |  
+| CodaIconHighlightHexColor       | [String] | #9100FF                               |  
+| CodaIconMaskFile                | [String] | Your Sidebar Icon File                |   
+| CodaPlugInSupportedAPIVersion   | [Number] | 7                                     |  
+| Principal Class                 | [String] | <Fameworkname>.<YourStartingClass>    |
 
+* Note: According To Apple for Principal Class: "...In this case that occurs because Swift classes have
+  namespaced runtime names. Your principal class should therefore be of the form 'MyFramework.MyClass'."
 * Create a pdf of your icon for the home view.  200px x 200px black and white image 
   for best results with the name you have in the "CodaIconMaskFile" entry.
 * Create your principal class where the class name is what your set in your info.plist: 
-  "File" / "File.." / "OS X" / "Source" / "Swift File" / Save as YourStartingClass
+  "File" / "File.." / "OS X" / "Source" / "Swift File" / Save as <Frameworkname>
 * When it asks you to create a bridging Header, Agree.
 * Here's a starter for your Starting Class:
 
@@ -100,15 +102,11 @@ Here's a list of the ones that I added for this project:
  * Set "Destinaton" to "Frameworks"
  * For each file missing; Click "+" and browse for the dylib needed in the SwiftLibs directory.
 
-## Swift PrincipalClass Workaround
-Swift will override the PrincipalClass item in info.plist using the class name found in 
-the first file compiled.  You'll need to make sure that the class is always the first file 
-compiled.  Here's how:
-
- * Select your plugin target
- * Select "Build Phases" tab
- * Click "Compile Sources" line to open it up
- * If your PrincipalClass isn't the first file compiled drag it to the top line.
+## Swift PrincipalClass Note
+Swift will override the PrincipalClass item in info.plist without warning using the class name
+found in the first file compiled if it can't find the fully namespaced classname in PrincipalClass.
+You'll need to use <Framework>.<Starting Class>  (i.e. "SwiftSidebar.SwiftSidebar") to maintain your
+sanity.
  
 ## Debugging the Project
 To Setup Debugging &mdash; [Thank-you to http://ngs.io](http://ngs.io/2012/05/25/debugging-coda-plug-in-with-lldb/)

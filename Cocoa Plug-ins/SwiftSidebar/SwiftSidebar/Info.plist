@@ -23,7 +23,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2015 William J Heaton. All rights reserved. See README.md for license terms</string>
 	<key>NSPrincipalClass</key>
-	<string>SwiftSidebar</string>
+	<string>SwiftSidebar.SwiftSidebar</string>
 	<key>CodaPlugInSupportedAPIVersion</key>
 	<integer>7</integer>
 	<key>CodaAuthorString</key>
