@@ -143,7 +143,7 @@ static const uint16_t kUTF16BEBOM = 0xFEFF;
 
 - (void)writeUTFBOM:(id)sender
 {
-	CodaTextView* textView = [controller focusedTextView:self];
+	CodaTextView* textView = [controller focusedTextView];
 	
 	if ( [textView path] != nil && [[NSFileManager defaultManager] fileExistsAtPath:[textView path]] )
 	{
@@ -176,7 +176,7 @@ static const uint16_t kUTF16BEBOM = 0xFEFF;
 
 - (void)writeWithoutUTFBOM:(id)sender
 {
-	CodaTextView* textView = [controller focusedTextView:self];
+	CodaTextView* textView = [controller focusedTextView];
 	
 	if ( [textView path] != nil && [[NSFileManager defaultManager] fileExistsAtPath:[textView path]] )
 	{
@@ -202,7 +202,7 @@ static const uint16_t kUTF16BEBOM = 0xFEFF;
 	
 	if ( [menuItem action] == @selector(writeUTFBOM:) )
 	{
-		CodaTextView* textView = [controller focusedTextView:self];
+		CodaTextView* textView = [controller focusedTextView];
 		
 		if ( [textView path] != nil )
 		{
@@ -220,7 +220,7 @@ static const uint16_t kUTF16BEBOM = 0xFEFF;
 	}
 	else if ( [menuItem action] == @selector(writeWithoutUTFBOM:) )
 	{
-		CodaTextView* textView = [controller focusedTextView:self];
+		CodaTextView* textView = [controller focusedTextView];
 		
 		if ( [textView path] != nil )
 		{

@@ -21,10 +21,20 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1</string>
 	<key>NSPrincipalClass</key>
 	<string>WriteUTFBOMPlugIn</string>
 	<key>CodaPlugInSupportedAPIVersion</key>
 	<integer>6</integer>
+	<key>CodaDescriptionString</key>
+	<string>Edit UTF BOM (Byte Order Marker)</string>
+	<key>CodaIconMaskTintString</key>
+	<string>#FEB171</string>
+	<key>CodaAuthorString</key>
+	<string>Panic Inc.</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Panic Inc.</string>
 </dict>
 </plist>
