@@ -140,6 +140,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0640;
 			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "WriteUTFBOM" */;
 			compatibilityVersion = "Xcode 2.4";
@@ -210,6 +211,7 @@
 		1DEB913B08733D840010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_LOCATION = NO;
@@ -222,6 +224,7 @@
 				GCC_PREFIX_HEADER = WriteUTFBOM_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = WriteUTFBOM;
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = codaplugin;
@@ -232,10 +235,7 @@
 		1DEB913C08733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = NO;
 				DSTROOT = "$(HOME)/Library/Application Support/Coda/PlugIns";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -244,6 +244,7 @@
 				GCC_PREFIX_HEADER = WriteUTFBOM_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = WriteUTFBOM;
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = codaplugin;
