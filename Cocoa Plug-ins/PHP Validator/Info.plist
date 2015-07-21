@@ -16,22 +16,24 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CodaIconMaskTintString</key>
-	<string>#46c518</string>
 	<key>CodaAuthorString</key>
 	<string>Panic Inc.</string>
 	<key>CodaDescriptionString</key>
 	<string>A simple PHP syntax validator.</string>
+	<key>CodaIconMaskTintString</key>
+	<string>#46c518</string>
 	<key>CodaPlugInMinimumAPIVersion</key>
 	<string>7</string>
 	<key>CodaPlugInSupportedAPIVersion</key>
 	<integer>7</integer>
+	<key>NSHumanReadableCopyright</key>
+	<string>Panic Inc.</string>
 	<key>NSPrincipalClass</key>
 	<string>PHPValidatorPlugIn</string>
 </dict>
