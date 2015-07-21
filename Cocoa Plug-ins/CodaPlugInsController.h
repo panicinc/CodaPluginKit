@@ -8,6 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+#if defined (CODA)
+#import "SidebarPlacardView.h"
+#endif
+
+
 @class CodaTextView;
 @protocol CodaValidator, CodaValidatorDelegate;
 
@@ -22,15 +27,18 @@
 @interface CodaPlugInsController : NSObject
 
 ///-------------------------
-/// @name  Determining Versions
+/// @name  Determaining Versions
 ///-------------------------
+
 
 /**
  The version of Coda that is hosting the plug-in.
 
  @return A string such as "2.5.1".
  */
+
 - (NSString*)codaVersion;
+
 
 /**
 The current API version of Coda.
@@ -38,17 +46,18 @@ The current API version of Coda.
 The versions are as follows:
 
 Coda Version | API Version 
------ | ---
-1.6   | 2 
+--- | ---
+1.6 | 2 
 1.6.1 | 3
 1.6.3 | 4
 1.6.8 | 5
-2.0   | 5
+2.0 | 5
 2.0.1 | 6
-2.5   | 7
+2.5 | 7
 
 @return 7 as of Coda 2.5.
 */
+
 - (NSUInteger)apiVersion;
 
 
@@ -1014,6 +1023,17 @@ static NSString* const CodaPluginErrorDomain =	@"CodaPluginErrorDomain";
 
 @end
 
+#if defined(CODA)
+@interface CodaSidebarButton : PCGradientButton
+@end
+
+@interface CodaSidebarButtonCell : PCGradientButtonCell
+@end
+
+@interface CodaSidebarBox : SidebarPlacardView
+@end
+
+#else
 /**
  
  */
@@ -1031,6 +1051,9 @@ static NSString* const CodaPluginErrorDomain =	@"CodaPluginErrorDomain";
  */
 @interface CodaSidebarBox : NSView
 @end
+
+#endif
+
 
 /**
  @const kValidatorMessageStringKey

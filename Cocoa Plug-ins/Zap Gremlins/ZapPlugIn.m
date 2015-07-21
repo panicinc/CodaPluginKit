@@ -79,7 +79,7 @@
         [self loadInterface];
     }
     
-    CodaTextView	*textView = [controller focusedTextView:self];
+    CodaTextView	*textView = [controller focusedTextView];
 	NSWindow		*window = [textView window];
 	
 	[zapDialog makeFirstResponder:illegalCheckbox];
@@ -97,7 +97,7 @@
 	
 	if ( returnCode == NSOKButton )
 	{	
-		CodaTextView	*textView = [controller focusedTextView:self];
+		CodaTextView	*textView = [controller focusedTextView];
 		NSString		*text = nil;
 		BOOL			replacingSelection = YES;
 		NSMutableString *resultText = nil;
@@ -208,7 +208,7 @@
 	
 	if ( action == @selector(showDialog) )
 	{
-		CodaTextView	*textView = [controller focusedTextView:self];
+		CodaTextView	*textView = [controller focusedTextView];
 		
 		// if a text view is not visible, we can't zap gremlins
 		if ( textView == nil )

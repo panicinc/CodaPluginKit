@@ -16,12 +16,24 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1</string>
+	<key>CodaAuthorString</key>
+	<string>Panic Inc.</string>
+	<key>CodaDescriptionString</key>
+	<string>Removes Unprintable Characters</string>
+	<key>CodaIconMaskTintString</key>
+	<string>#01CEEF</string>
+	<key>CodaPlugInMinimumAPIVersion</key>
+	<string>5</string>
 	<key>CodaPlugInSupportedAPIVersion</key>
 	<integer>6</integer>
+	<key>NSHumanReadableCopyright</key>
+	<string>Panic Inc.</string>
 	<key>NSPrincipalClass</key>
 	<string>ZapPlugIn</string>
 </dict>
