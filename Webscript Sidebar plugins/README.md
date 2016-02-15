@@ -1,5 +1,5 @@
 #### What are Webscript plugins:
-Webscript plugins allow web developers to create plugins using HTML and Javascript that load within Coda and are able to present a user interface with access to the current file editor. These plugins live alongside the built-in sidebar tools and give the user quick access to their funtionality. Webscript plugins are file bundles, which is simply a folder with a custom Info.plist file contained within. The Info.plist file contains important information about the plugin, such as: name, description, author, version and more.
+Webscript plugins allow developers to create plugins using HTML and Javascript that load within Coda and are able to present a user interface with access to the current file editor. These plugins live alongside the built-in sidebar tools and give the user quick access to their funtionality. Webscript plugins are file bundles, which are just folders with a custom Info.plist file contained within. The Info.plist file contains important information about the plugin, such as: name, description, author, version and more.
 
 #### Installation:
 Once you have created a Webscript plugin it should be installed in: /Users/home/Library/Application Support/Coda 2/Plug-ins/
@@ -95,3 +95,6 @@ The Info.plist file defines metadata about the plugin and its functionality.
 - CFBundleIdentifier -- the unique identifier for your plugin, usually in the form of com.companyname.plugin
 - CFBundleName -- the plugin name
 - CFBundleShortVersionString -- the plugin version
+
+#### Styling buttons and Controls to match Coda
+Provided with the WebScript plugin API is a stylesheet that plugins may use to style their HTML controls to match the style Coda uses throughout its sidebar. For an example of how to use the included stylesheet, check out the `Hello World` plugin above.
