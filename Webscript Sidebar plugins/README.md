@@ -14,6 +14,7 @@ Implementing a function with one or more of the following signatures will cause 
 - didLoadSiteNamed(string) -- The name of the Site being opened is passed to the plugin.
 
 #### CodaTextView functions:
+The text view represents a text document being editing in Coda and is the main interface for text manipulation.
 
 - (string) string -- the entire document contents
 - (string) path -- the path of the document if saved
