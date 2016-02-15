@@ -15,39 +15,46 @@ Implementing a function with one or more of the following signatures will cause 
 
 #### CodaTextView functions:
 
+- (string) string -- the entire document contents
+- (string) path -- the path of the document if saved
+
+- save - saves the current document
+- (bool) saveToPath(string) -- saves the document to the specified path
+
 - insertText(string) -- inserts text into the document
+- deleteSelection -- deletes the current selection
+- replaceCharactersInRangeWithString(range, string) - Replaces characters in the specified range with the replacement string
+
 - (string) selectedText -- returns the current document selection as string
 - (string) currentLine -- the string on the line being edited
 - (int) currentLineNumber -- the line number of the insertion point
-- deleteSelection -- deletes the current selection
-- (string) lineEnding -- the line ending string of the document (EG: /n, /cr) 
+- (range) selectedRange - The range of the current selection
+- setSelectedRange(range) - Modifies the selection to be range
+- (string) stringWithRange(range) - The string contained within range
+- (range) rangeOfCurrentLine - The range of the line being edited
+- (range) previousWordRange - The word before the insertion point
+- (range) currentWordRange - The word being edited
+
+- (int) getColumn - the column of the insertion point on the current line
+- (int) getLine - the line of the insertion point
 - (int) startOfLine -- the index of the character that starts the current line
-- (string) string -- the entire document contents
+- goToLineAndColumn(int, int) - move the insertion point to the specified line and column
+
+- (int) encoding -- The string encoding for the document, use NSStringEncoding defined values
+- (string) modeIdentifier -- The current editing syntax mode's identifier, useful for determining the current language in use
+- (string) lineEnding -- the line ending string of the document (EG: /n, /cr) 
 - (bool) usesTabs -- flag indicating if the document uses spaces or tabs
 - (int) tabWidth -- the number of spaces in which to insert when using tabs
-- save - saves the current document
-- (bool) saveToPath(string) -- saves the document to the specified path
+
 - beginUndoGrouping -- starts an undo group to allow for grouped edits
 - endUndoGrouping -- ends an undo group to allow for grouped edits
-- (string) path -- the path of the document if saved
-- (string) siteURL - the open Site URL
+
+- (string) siteURL - the local URL for the open Site
 - (string) siteLocalURL - the open Site local URL, useful for local environment testing
 - (string) siteRemotePath - the root path of the Site on the server
 - (string) siteLocalPath - the root path for the Site on the local machine
 - (string) siteNickname - name used for the Site
-- goToLineAndColumn(int, int) - move the insertion point to the specified line and column
-- (string) remoteURL - the Site's URL
-- (int) getColumn - the column of the insertion point on the current line
-- (int) getLine - the line of the insertion point
-- (int) encoding -- The string encoding for the document, use NSStringEncoding defined values
-- (string) modeIdentifier -- The current editing syntax mode's identifier, useful for determining the current language in use
-- (range) selectedRange - The range of the current selection
-- replaceCharactersInRangeWithString(range, string) - Replaces characters in the specified range with the replacement string
-- setSelectedRange(range) - Modifies the selection to be range
-- (range) rangeOfCurrentLine - The range of the line being edited
-- (string) stringWithRange(range) - The string contained within range
-- (range) previousWordRange - The word before the insertion point
-- (range) currentWordRange - The word being edited
+- (string) remoteURL - the remote URL for the open Site
 - (string) siteUUID - The unique identifier for the open site
 
 #### Range type example:
@@ -58,24 +65,27 @@ CodaTextView.setSelectedRange(range);
 ```
 
 #### CodaPlugInsController:
+The plugins controller allows plugins to communicate with Coda. The following commands are available:
 
 - (string) codaVersion - The version of Coda hosting the plugin.
 - (int) apiVersion - The plugin API version Coda is currently using.
 - (CodaTextView) makeUntitledDocument - Creates a new document.
+- (CodaTextView) openFileAtPath(string) -- Opens the document at path in a new tab.
 - saveAll - Saves all open documents.
 - displayHTMLString(string) - Renders the given HTML in a new preview tab.
 - displayHTMLStringWithBaseURL(string, string) -- Renders the given HTML in a new preview tab using the base URL for any embedded links or resources.
-- (CodaTextView) openFileAtPath(string) -- Opens the document at path in a new tab.
 - (int) runCommand(string, array) - Runs the command line tool at the specified path. Accepts an array of string arguments to pass to the tool.
 
 
 #### CodaPlugInPreferences:
+The plugin preferences interface allows plugins store and retrieve values.
 
 - (string)preferenceForKey(string) -- Returns the previously saved value for the specified key.
 - setPreferenceForKey(string, string) -- Saves the specified string for a key. The value is saved by Coda and persists accross application restarts.
 
 
 #### Info.plist keys:
+The Info.plist file defines metadata about the plugin and its functionality.
 
 - CodaIconMaskFile -- a black and white mask image which is used for the sidebar icon
 - CFBundleIdentifier -- the unique identifier for your plugin, usually in the form of com.companyname.plugin
