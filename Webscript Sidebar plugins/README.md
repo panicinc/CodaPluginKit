@@ -8,10 +8,10 @@ Restart Coda to load the plug-in. Once the plugin is loaded, you may reload your
 #### Optional Javascript callbacks:
 Implementing a function with one or more of the following signatures will cause Coda to call into the plugin when the event occurs.
 
-- textViewWillSave(CodaTextView) <br>*a document is going to be saved, the document is represented by a CodaTextView*
-- textViewDidFocus(CodaTextView) <br>*a document became focused for editing*
-- (string) willPublishFileAtPath(string) <br>*original file path input, modified file path is returned. The file at the input path is about to be published. This is an appropriate place for doing pre-processing (EG: minifying) before uploading the file to a production server.*
-- didLoadSiteNamed(string) <br>*site name input. A site with the passed-in name was just opened.*
+- textViewWillSave(CodaTextView) --a document is going to be saved, the document is represented by a CodaTextView
+- textViewDidFocus(CodaTextView) --a document became focused for editing
+- (string) willPublishFileAtPath(string) --original file path input, modified file path is returned. The file at the input path is about to be published. This is an appropriate place for doing pre-processing (EG: minifying) before uploading the file to a production server.
+- didLoadSiteNamed(string) --site name input. A site with the passed-in name was just opened.
 
 #### CodaTextView functions:
 
