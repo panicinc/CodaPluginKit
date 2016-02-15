@@ -17,45 +17,44 @@ Implementing a function with one or more of the following signatures will cause 
 
 - (string) string -- the entire document contents
 - (string) path -- the path of the document if saved
-
-- save - saves the current document
+- save -- saves the current document
 - (bool) saveToPath(string) -- saves the document to the specified path
 
 - insertText(string) -- inserts text into the document
 - deleteSelection -- deletes the current selection
-- replaceCharactersInRangeWithString(range, string) - Replaces characters in the specified range with the replacement string
+- replaceCharactersInRangeWithString(range, string) -- Replaces characters in the specified range with the replacement string
 
 - (string) selectedText -- returns the current document selection as string
 - (string) currentLine -- the string on the line being edited
 - (int) currentLineNumber -- the line number of the insertion point
-- (range) selectedRange - The range of the current selection
-- setSelectedRange(range) - Modifies the selection to be range
-- (string) stringWithRange(range) - The string contained within range
-- (range) rangeOfCurrentLine - The range of the line being edited
-- (range) previousWordRange - The word before the insertion point
-- (range) currentWordRange - The word being edited
+- (range) selectedRange -- The range of the current selection
+- setSelectedRange(range) -- Modifies the selection to be range
+- (string) stringWithRange(range) -- The string contained within range
+- (range) rangeOfCurrentLine -- The range of the line being edited
+- (range) previousWordRange -- The word before the insertion point
+- (range) currentWordRange -- The word being edited
 
-- (int) getColumn - the column of the insertion point on the current line
-- (int) getLine - the line of the insertion point
+- (int) getColumn -- the column of the insertion point on the current line
+- (int) getLine -- the line of the insertion point
 - (int) startOfLine -- the index of the character that starts the current line
-- goToLineAndColumn(int, int) - move the insertion point to the specified line and column
-
+- goToLineAndColumn(int, int) -- move the insertion point to the specified line and column
+-
 - (int) encoding -- The string encoding for the document, use NSStringEncoding defined values
 - (string) modeIdentifier -- The current editing syntax mode's identifier, useful for determining the current language in use
 - (string) lineEnding -- the line ending string of the document (EG: /n, /cr) 
 - (bool) usesTabs -- flag indicating if the document uses spaces or tabs
 - (int) tabWidth -- the number of spaces in which to insert when using tabs
-
+-
 - beginUndoGrouping -- starts an undo group to allow for grouped edits
 - endUndoGrouping -- ends an undo group to allow for grouped edits
-
-- (string) siteURL - the local URL for the open Site
-- (string) siteLocalURL - the open Site local URL, useful for local environment testing
-- (string) siteRemotePath - the root path of the Site on the server
-- (string) siteLocalPath - the root path for the Site on the local machine
-- (string) siteNickname - name used for the Site
-- (string) remoteURL - the remote URL for the open Site
-- (string) siteUUID - The unique identifier for the open site
+-
+- (string) siteURL -- the local URL for the open Site
+- (string) siteLocalURL -- the open Site local URL, useful for local environment testing
+- (string) siteRemotePath -- the root path of the Site on the server
+- (string) siteLocalPath -- the root path for the Site on the local machine
+- (string) siteNickname -- name used for the Site
+- (string) remoteURL -- the remote URL for the open Site
+- (string) siteUUID -- The unique identifier for the open site
 
 #### Range type example:
 
