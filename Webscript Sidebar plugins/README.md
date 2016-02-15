@@ -87,11 +87,11 @@ The plugin preferences interface allows plugins store and retrieve values.
 #### Info.plist keys:
 The Info.plist file defines metadata about the plugin and its functionality.
 
+- CodaAuthorString -- the author or company name
+- CodaDescriptionString -- a short description of the plugin for use on the webpage and within Coda
 - CodaIconMaskFile -- a black and white mask image which is used for the sidebar icon
+- CodaIconMaskTintString -- an optional hex color used to tint the icon mask in the preferences window
+- CodaPlugInSupportedAPIVersion -- the Coda API version the plugin conforms to
 - CFBundleIdentifier -- the unique identifier for your plugin, usually in the form of com.companyname.plugin
 - CFBundleName -- the plugin name
 - CFBundleShortVersionString -- the plugin version
-- CodaPlugInSupportedAPIVersion -- the Coda API version the plugin conforms to
-- CodaDescriptionString -- a short description of the plugin for use on the webpage and within Coda
-- CodaIconMaskTintString -- an optional hex color used to tint the icon mask in the preferences window
-- CodaAuthorString -- the author or company name
