@@ -20,7 +20,6 @@ The text view represents a text document being editing in Coda and is the main i
 - (string) path -- the path of the document if saved
 - save -- saves the current document
 - (bool) saveToPath(string) -- saves the document to the specified path
-
 - insertText(string) -- inserts text into the document
 - deleteSelection -- deletes the current selection
 - replaceCharactersInRangeWithString(range, string) -- Replaces characters in the specified range with the replacement string
