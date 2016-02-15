@@ -1,12 +1,12 @@
 #### What are Webscript plugins:
 Webscript plugins allow developers to create plugins using HTML and Javascript that load within Coda and are able to present a user interface with access to the current file editor. These plugins live alongside the built-in sidebar tools and give the user quick access to their funtionality. Webscript plugins are file bundles, which are just folders with a custom Info.plist file contained within. The Info.plist file contains important information about the plugin, such as: name, description, author, version and more.
 
-#### Installation:
+#### Installation and debugging:
 Once you have created a Webscript plugin it should be installed in: /Users/home/Library/Application Support/Coda 2/Plug-ins/
-Restart Coda to load the plug-in. Once the plugin is loaded, you may reload your plugin and its source by right-clicking anywhere in its interface and choosing the "Reload" option. The Web Inspector is also available for debugging sidebar plugins, just like a web page.
+Restart Coda to load the plug-in. Once the plugin is loaded, you may reload your plugin and its source by right-clicking anywhere in its interface and choosing the "Reload" option. The Web Inspector is also available for debugging sidebar plugins, just like a web page. Tip: to quickly install a plugin just double-click it in the Finder and Coda will do the rest.
 
 #### Optional Javascript callbacks:
-Implementing a function with one or more of the following signatures will cause Coda to call into the plugin when the event occurs.
+Implementing a function with one or more of the following signatures will cause Coda to call into the plugin when the desired event occurs.
 
 - textViewWillSave(CodaTextView) -- A document is going to be saved, the document is represented by a CodaTextView
 - textViewDidFocus(CodaTextView) -- A document became focused for editing
