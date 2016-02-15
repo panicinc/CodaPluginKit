@@ -52,7 +52,7 @@ Implementing a function with one or more of the following signatures will cause 
 
 #### Range type example:
 
-```
+```Javascript
 var range= {length:10, location:1};
 CodaTextView.setSelectedRange(range);
 ```
