@@ -38,16 +38,16 @@ Implementing a function with one or more of the following signatures will cause 
 - (int) getLine -- the line of the insertion point
 - (int) startOfLine -- the index of the character that starts the current line
 - goToLineAndColumn(int, int) -- move the insertion point to the specified line and column
--
+
 - (int) encoding -- The string encoding for the document, use NSStringEncoding defined values
 - (string) modeIdentifier -- The current editing syntax mode's identifier, useful for determining the current language in use
 - (string) lineEnding -- the line ending string of the document (EG: /n, /cr) 
 - (bool) usesTabs -- flag indicating if the document uses spaces or tabs
 - (int) tabWidth -- the number of spaces in which to insert when using tabs
--
+
 - beginUndoGrouping -- starts an undo group to allow for grouped edits
 - endUndoGrouping -- ends an undo group to allow for grouped edits
--
+
 - (string) siteURL -- the local URL for the open Site
 - (string) siteLocalURL -- the open Site local URL, useful for local environment testing
 - (string) siteRemotePath -- the root path of the Site on the server
