@@ -41,7 +41,7 @@ Implementing a function with one or more of the following signatures will cause 
 
 - (int) encoding -- The string encoding for the document, use NSStringEncoding defined values
 - (string) modeIdentifier -- The current editing syntax mode's identifier, useful for determining the current language in use
-- (string) lineEnding -- the line ending string of the document (EG: /n, /cr) 
+- (string) lineEnding -- the line ending string of the document
 - (bool) usesTabs -- flag indicating if the document uses spaces or tabs
 - (int) tabWidth -- the number of spaces in which to insert when using tabs
 
