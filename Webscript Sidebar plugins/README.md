@@ -23,15 +23,15 @@ The text view represents a text document being editing in Coda and is the main i
 - insertText(string) -- inserts text into the document
 - deleteSelection -- deletes the current selection
 - replaceCharactersInRangeWithString(range, string) -- Replaces characters in the specified range with the replacement string<br><br>
-- (string) currentLine -- the string on the line being edited
-- (int) currentLineNumber -- the line number of the insertion point
-- (range) rangeOfCurrentLine -- The range of the line being edited
 - (string) selectedText -- returns the current document selection as string
 - (range) selectedRange -- The range of the current selection
 - setSelectedRange(range) -- Modifies the selection to be range
 - (string) stringWithRange(range) -- The string contained within range
 - (range) previousWordRange -- The word before the insertion point
 - (range) currentWordRange -- The word being edited
+- (string) currentLine -- the string on the line being edited
+- (int) currentLineNumber -- the line number of the insertion point
+- (range) rangeOfCurrentLine -- The range of the line being edited
 - (int) getColumn -- the column of the insertion point on the current line
 - (int) getLine -- the line of the insertion point
 - (int) startOfLine -- the index of the character that starts the current line
