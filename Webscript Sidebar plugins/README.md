@@ -19,30 +19,30 @@ The text view represents a text document being editing in Coda and is the main i
 - (string) string -- the entire document contents
 - (string) path -- the path of the document if saved
 - save -- saves the current document
-- (bool) saveToPath(string) -- saves the document to the specified path
+- (bool) saveToPath(string) -- saves the document to the specified path<br><br>
 - insertText(string) -- inserts text into the document
 - deleteSelection -- deletes the current selection
-- replaceCharactersInRangeWithString(range, string) -- Replaces characters in the specified range with the replacement string
-- (string) selectedText -- returns the current document selection as string
+- replaceCharactersInRangeWithString(range, string) -- Replaces characters in the specified range with the replacement string<br><br>
 - (string) currentLine -- the string on the line being edited
 - (int) currentLineNumber -- the line number of the insertion point
+- (range) rangeOfCurrentLine -- The range of the line being edited
+- (string) selectedText -- returns the current document selection as string
 - (range) selectedRange -- The range of the current selection
 - setSelectedRange(range) -- Modifies the selection to be range
 - (string) stringWithRange(range) -- The string contained within range
-- (range) rangeOfCurrentLine -- The range of the line being edited
 - (range) previousWordRange -- The word before the insertion point
 - (range) currentWordRange -- The word being edited
 - (int) getColumn -- the column of the insertion point on the current line
 - (int) getLine -- the line of the insertion point
 - (int) startOfLine -- the index of the character that starts the current line
-- goToLineAndColumn(int, int) -- move the insertion point to the specified line and column
+- goToLineAndColumn(int, int) -- move the insertion point to the specified line and column<br><br>
 - (int) encoding -- The string encoding for the document, use NSStringEncoding defined values
 - (string) modeIdentifier -- The current editing syntax mode's identifier, useful for determining the current language in use
 - (string) lineEnding -- the line ending string of the document
 - (bool) usesTabs -- flag indicating if the document uses spaces or tabs
-- (int) tabWidth -- the number of spaces in which to insert when using tabs
+- (int) tabWidth -- the number of spaces in which to insert when using tabs<br><br>
 - beginUndoGrouping -- starts an undo group to allow for grouped edits
-- endUndoGrouping -- ends an undo group to allow for grouped edits
+- endUndoGrouping -- ends an undo group to allow for grouped edits<br><br>
 - (string) siteURL -- the local URL for the open Site
 - (string) siteLocalURL -- the open Site local URL, useful for local environment testing
 - (string) siteRemotePath -- the root path of the Site on the server
