@@ -68,7 +68,7 @@ The plugins controller allows plugins to communicate with Coda. The following co
 - saveAll - Saves all open documents.
 - displayHTMLString(string) - Renders the given HTML in a new preview tab.
 - displayHTMLStringWithBaseURL(string, string) -- Renders the given HTML in a new preview tab using the base URL for any embedded links or resources.
-- (int) runCommand(string, array) - Runs the command line tool at the specified path. Accepts an array of string arguments to pass to the tool.
+- (int) runCommand(string, array) - Runs the command line tool at the specified path. Accepts an array of string arguments to pass to the tool. Returns the result value from the tool after completion.
 
 
 #### CodaPlugInPreferences:
