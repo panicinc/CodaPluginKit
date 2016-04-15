@@ -36,5 +36,7 @@
 	<string>Panic Inc.</string>
 	<key>NSPrincipalClass</key>
 	<string>ZapPlugIn</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.7</string>
 </dict>
 </plist>
