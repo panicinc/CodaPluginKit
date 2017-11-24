@@ -14,6 +14,6 @@ There are three ways to write a plug-in. The first way is to write a script in a
 
 The second (more complex) way is to write directly to the Cocoa Plug-In API. You may create sidebar, text, and validation plugins using Cocoa. Lastly sidebar plugins can be written using the new HTML/Scripting interface in 2.5.
 
-Coda also allows further customization through the additional add-ons: Syntax Modes, Mode Completion Additions, and Themes. Sytax Modes allow Coda to understand and highlight languages that aren't included in the default application installation. Mode Completions extend the auto-complete system to include custom lanaguage additions for libraries and frameworks. Color Themes provide customized colors to be used for sytax higlighting source code.
+Coda also allows further customization through the additional add-ons: Syntax Modes, Mode Completion Additions, and Themes. Syntax Modes allow Coda to understand and highlight languages that aren't included in the default application installation. Mode Completions extend the auto-complete system to include custom lanaguage additions for libraries and frameworks. Color Themes provide customized colors to be used for sytax higlighting source code.
 
 If you'd like to submit a plugin to us please create an account at our [plugin site](https://panic.com/users/) and follow the instructions.
